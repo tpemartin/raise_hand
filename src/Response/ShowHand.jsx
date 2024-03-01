@@ -21,7 +21,9 @@ export default function ShowHand({ show = false }) {
                 container={containerRef.current}
                 in={show} mountOnEnter unmountOnExit>
 
-                <BackHandIcon />
+                <BackHandIcon sx={{color: "blue",
+                fontSize: "5rem"}}
+                />
             </Slide>
         </Box>
     </Box >
